@@ -76,3 +76,33 @@ pw : Kim0ran2!
    스테이징 : 깃허브에 파일 올릴 것을 무대에 올린다? 파일 올릴 준비
    . => 모든(all) 파일 스테이징하기
    git add .
+
+
+9. 커밋하기
+   커밋(commit) : 최종점검
+   -m : 메세지, 코멘트의 기능
+   git commit -m '리액트 create-react-app JUSt SHOPPINGMALL' 
+
+
+10. 푸쉬하기(push, 업로드)
+   git push origin master
+
+   $ git push origin master
+   info: please complete authentication in your browser...
+   Enumerating objects: 46, done.
+   Counting objects: 100% (46/46), done.
+   Delta compression using up to 4 threads
+   Compressing objects: 100% (46/46), done.
+   Writing objects: 100% (46/46), 1.36 MiB | 3.22 MiB/s, done.
+   Total 46 (delta 0), reused 0 (delta 0), pack-reused 0
+   To https://github.com/zeroranKim/just_shop.git
+    * [new branch]      master -> master
+
+
+
+! etc. 수정할 경우 !
+   웹페이지 / 파일 수정
+   스테이징 부터 다시해서 푸쉬하기 
+   git add .
+   git commit -m '리액트 create-react-app JUSt SHOPPINGMALL js를 jsx수정 ' 
+   git push origin master
