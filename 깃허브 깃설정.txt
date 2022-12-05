@@ -10,7 +10,7 @@ pw : Kim0ran2!
 
 - 로컬 프로젝트 작업위치 
 3. GitBash에서 경로(목록)확인 
-   li -la
+   ls -la
    숨김파일까지 모두 보기 (-la)
    $ ls -la
    total 1189
