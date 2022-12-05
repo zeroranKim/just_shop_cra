@@ -79,7 +79,7 @@ pw : Kim0ran2!
 
 
 9. 커밋하기
-   커밋(commit) : 최종점검
+   커밋(commit) : 최종점검, 코멘트를 꼭 달아주는 것이 좋다(어디까지 수정이 완료됐는지...)
    -m : 메세지, 코멘트의 기능
    git commit -m '리액트 create-react-app JUSt SHOPPINGMALL' 
 
@@ -100,7 +100,7 @@ pw : Kim0ran2!
 
 
 
-! etc. 수정할 경우 !
+! etc. 수정할 경우 ! <수정한 부분만 올린다_보정수정
    웹페이지 / 파일 수정
    스테이징 부터 다시해서 푸쉬하기 
    git add .
